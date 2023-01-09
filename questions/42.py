@@ -29,3 +29,4 @@ with open('p042_words.txt','r+') as f:
             # check if the given number is in num_list
             if com in num_list:
                 Counter += 1
+print(Counter)
