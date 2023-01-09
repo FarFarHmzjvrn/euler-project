@@ -30,3 +30,8 @@ with open('p042_words.txt','r+') as f:
             if com in num_list:
                 Counter += 1
 print(Counter)
+
+
+#I have used open to do file operations. I am assuming that you know all the file operations.
+
+
