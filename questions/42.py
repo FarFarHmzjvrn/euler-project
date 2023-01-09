@@ -32,6 +32,8 @@ with open('p042_words.txt','r+') as f:
 print(Counter)
 
 
-#I have used open to do file operations. I am assuming that you know all the file operations.
+# I have used open to do file operations. I am assuming that you know all the file operations.
+# Function position will convert the given letter to a alphabetical position of the number.
+# For example position('A') will return 1, position('S') will return 19 and so on.
 
 
