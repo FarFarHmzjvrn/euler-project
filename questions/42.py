@@ -22,3 +22,4 @@ with open('p042_words.txt','r+') as f:
     # split the lines into a list
     for line in f:
         line = line.lower().strip().split(',')
+        # for loop to loop through the line
