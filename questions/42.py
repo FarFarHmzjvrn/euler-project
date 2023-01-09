@@ -26,3 +26,6 @@ with open('p042_words.txt','r+') as f:
         for word in line:
             # convert the words to numbers and find the sum
             com = sum(map(position,word[1:-1]))
+            # check if the given number is in num_list
+            if com in num_list:
+                Counter += 1
