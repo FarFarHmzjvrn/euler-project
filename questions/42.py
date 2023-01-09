@@ -12,6 +12,7 @@ while a <= 100:
 # from collections import Counter
 from collections import Counter
 
-# A function to convert letters to alphabetical position
 def position(chara):
+    """A function to convert 
+    letters to alphabetical position"""
     return ord(chara)-96
