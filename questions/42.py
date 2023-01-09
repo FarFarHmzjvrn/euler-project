@@ -24,4 +24,5 @@ with open('p042_words.txt','r+') as f:
         line = line.lower().strip().split(',')
         # for loop to loop through the line
         for word in line:
+            # convert the words to numbers and find the sum
             com = sum(map(position,word[1:-1]))
