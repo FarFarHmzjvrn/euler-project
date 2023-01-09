@@ -9,9 +9,6 @@ while a <= 100:
     num = int(num)
     num_list.append(num)
 
-# from collections import Counter
-from collections import Counter
-
 def position(chara):
     """A function to convert 
     letters to alphabetical position"""
