@@ -35,5 +35,8 @@ print(Counter)
 # I have used open to do file operations. I am assuming that you know all the file operations.
 # Function position will convert the given letter to a alphabetical position of the number.
 # For example position('A') will return 1, position('S') will return 19 and so on.
-
+# We will loop through the words and map each and every word to position function.
+# This will return a list with the word converted to their alphabetical positions.
+# Finally sum function will find the sum of the numbers in the list.
+# i.e. we are simply finding the word value in this statement at line 36. For example map(position,'SKY') will return 55 and so on.
 
