@@ -23,3 +23,5 @@ with open('p042_words.txt','r+') as f:
     for line in f:
         line = line.lower().strip().split(',')
         # for loop to loop through the line
+        for word in line:
+            com = sum(map(position,word[1:-1]))
