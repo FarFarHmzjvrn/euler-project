@@ -17,3 +17,11 @@ def Pentagonal(P:int)-> bool:
     if ((((24)*(P)+1)**0.5)+1)% 6 == 0:
         return True
     return False
+
+
+def Hexagonal(H):
+    """check number is Hexagonal
+    """
+    if ((((8)*(H)+1)**0.5)+1) % 4 == 0:
+        return True
+    return False
