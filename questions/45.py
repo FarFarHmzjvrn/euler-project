@@ -27,3 +27,11 @@ def Hexagonal(H:int)-> int:
     return False
 
 
+"So start after 285"
+i = 286
+while True:
+    Triangle = (i)*(i+1)*(1/2)
+    if Hexagonal(Triangle) and Pentagonal(Triangle):
+        print(Triangle)
+        break
+    i += 1
