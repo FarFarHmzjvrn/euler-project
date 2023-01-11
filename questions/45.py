@@ -8,3 +8,5 @@ def Triangle(resault):
             return n
         n += 1
 
+Triangle(40755)
+285
