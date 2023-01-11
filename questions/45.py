@@ -43,4 +43,4 @@ while True:
 #  the number I found while loop starts after the number 285,
 #  we use two functions to find pentagonal and hexagonal numbers,
 #  until now we use while loop We will find the first number
-#  after 285 which is triangle and is both hexagone and pentagone
+#  after 285 which is triangle and is both hexagone and pentagone.
