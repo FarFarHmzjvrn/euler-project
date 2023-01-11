@@ -35,3 +35,4 @@ while True:
         print(Triangle)
         break
     i += 1
+
