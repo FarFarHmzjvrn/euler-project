@@ -19,9 +19,11 @@ def Pentagonal(P:int)-> bool:
     return False
 
 
-def Hexagonal(H):
+def Hexagonal(H:int)-> int:
     """check number is Hexagonal
     """
     if ((((8)*(H)+1)**0.5)+1) % 4 == 0:
         return True
     return False
+
+
