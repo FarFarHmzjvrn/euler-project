@@ -25,4 +25,4 @@ for num in x:
 
 
 
-total
+print(total)
