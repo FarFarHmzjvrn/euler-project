@@ -10,3 +10,5 @@ def subdiv(num, n):
 
 
 #variable to store the value of sum
+
+#for loop to loop through permutations
